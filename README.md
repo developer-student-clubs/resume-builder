@@ -18,7 +18,7 @@
   
   `We are welcoming new contributors to our project!!!`
 
-  Please visit our [contributing guidelines](https://github.com/vivek201102/resume-builder/contributing.md) before making any contributions.
+  Please visit our [contributing guidelines](https://github.com/vivek201102/resume-builder/blob/main/contributing.md) before making any contributions.
 
   <br/>
   
