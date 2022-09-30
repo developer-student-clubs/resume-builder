@@ -70,7 +70,7 @@
 
 
   ### Code of Conduct
-  - We will follow some rules and guidelines in order to maintain this repository. Please read [code of conduct](https://github.com/vivek201102/resume-builder/code-of-conduct.md) very carefully.
+  - We will follow some rules and guidelines in order to maintain this repository. Please read [code of conduct](https://github.com/vivek201102/resume-builder/blob/main/code_of_conduct.md) very carefully.
 
 
 
