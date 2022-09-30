@@ -26,33 +26,30 @@ We encourage every contributor to contribute to our repository and they can also
   <img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
 
   **2.**  Clone the forked repository.
-    ```terminal
+
       git clone --depth 1 https://github.com/<your github username>/resume-builder.git
-    ```
-  
+
   **3.** Navigate to the project directory
-    ```terminal
+
       cd resume-builder
-    ```
 
   **4.** Create a new branch
-    ```terminal
+
       git checkout -b <your_branch_name>
-    ```
 
   **5.** Make changes to solve the issues.
 
   ![changes](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/200w_d.gif)
 
   **6.** Commit your changes.
-    ```terminal
+
     git add .
     git commit -m "<commit_message>"
-    ```
+
   **7.** Push to your remote branch.
-  ```terminal
-  git push -u origin <your_branch_name>
-  ```
+
+    git push -u origin <your_branch_name>
+
   **8.** Create a pull request
 
   open your repository in the browser then click on `compare and pull`. Add an appropriate title and description to your pull request which describes your contribution effort.
@@ -61,7 +58,7 @@ We encourage every contributor to contribute to our repository and they can also
 
   Click on `compare & pull request`
   
-  Congratulations 🎉🎉 You have successfully made a contribution to `resu.me`
+####  Congratulations 🎉🎉 You have successfully made a contribution to `resu.me`
 
 
 ## Code of Conduct
