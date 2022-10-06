@@ -67,3 +67,9 @@ We encourage every contributor to contribute to our repository and they can also
 ## Contribution is fun! 🧡
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+<h1 align= "left"><b>Maintainers of this Repo. 👨‍🔧</b></h1>
+
+|<img src="https://avatars.githubusercontent.com/u/87079541?s=400&u=a6afeb3d4e394068e40ae408b9031c97bcb65c56&v=4" height="350px" width="350px">|<img src="https://user-images.githubusercontent.com/87079541/194384114-05772bbb-c2d3-4c49-af76-b70b5ace4aef.jpg" height="350px" width="350px">|<img src="https://user-images.githubusercontent.com/87079541/194385176-1513c258-693f-43ca-b29d-2664537fab1f.jpg" height="350px" width="350px">|
+|----------------------------|--------|----------------------------|
+|<p align="center">[Jeet Savsani](https://github.com/jeetsavsani1173)</p>|<p align="center">[Vivek Patel](https://github.com/vivek201102)</p>|<p align="center">[Hitarth Patel](https://github.com/patelhitarth08)</p>|
