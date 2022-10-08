@@ -60,6 +60,8 @@ We encourage every contributor to contribute to our repository and they can also
   
 ####  Congratulations 🎉🎉 You have successfully made a contribution to `resu.me`
 
+P.S. Star ⭐ and Share this repository, if you had fun!! 😍
+
 
 ## Code of Conduct
   - We will follow some rules and guidelines to maintain this repository. Please read [code of conduct](./code_of_conduct.md) very carefully.
