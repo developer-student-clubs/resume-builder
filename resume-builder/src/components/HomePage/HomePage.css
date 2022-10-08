@@ -24,7 +24,7 @@
 .home-content .subtitle {
     font-weight: 500;
 }
-.home .btns-container{
+.btns-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +33,7 @@
     gap: 1rem;
     padding: 1.5rem;
 }
-.btn-signup,.btn-signin{
+.btn-signup, .btn-signin{
     border: none;
     outline: none;
     cursor: pointer;

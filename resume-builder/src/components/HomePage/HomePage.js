@@ -1,9 +1,10 @@
 import React from 'react'
-import banner from '../images/owldalf.png'
-import './styles.css'
-const Home = () => {
+import banner from '../../images/owldalf.png'
+import './HomePage.css'
+
+const HomePage = () => {
   return (
-    <div className='home'>
+    <div className='HomePage'>
       <img src={banner} alt="bg" className='home-banner'/>
         <div className='home-content'>
             <p className='title'>"You shall not pass" without authentication</p>
@@ -17,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomePage
