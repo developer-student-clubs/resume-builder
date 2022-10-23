@@ -7,7 +7,7 @@
         <div className="container">
             <br />
             <div className="left">
-                <img src={image} alt="image" width="300px" height="400px"/>
+                <img src={image} alt="Loading" width="300px" height="400px"/>
             </div>
             <div className="right">
                 <div className="s-title">
@@ -30,7 +30,7 @@
                 <div className="sign">
                     <button className="reg">Register Now</button><p></p>
                     <p>Or sign Up with:</p>
-                    <button className="google"><img src={google} alt="image" width="22px" height="22px" gap="3px"/><span className="hid">-</span> Google</button>
+                    <button className="google"><img src={google} alt="Loading" width="22px" height="22px" gap="3px"/><span className="hid">-</span> Google</button>
                     <p className="short-text">A password can be set after you sign up if you prefer. <br />Meanwhile, your information is secure and private</p>
                 </div>
             </div>
