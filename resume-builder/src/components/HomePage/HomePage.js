@@ -15,7 +15,7 @@ const HomePage = () => {
           <Link to='/signup'>
             <button className='btn-signup'>Signing Up for Free</button>
           </Link>
-            <button className='btn-signin'>Signing In</button>
+          <Link to='/signin'><button className='btn-signin'>Signing In</button></Link>
         </div>
     </div>
   )
