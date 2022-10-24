@@ -1,59 +1,55 @@
-.container{
+.signin-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    gap: 2rem;
-    padding: 10px;
+    height: 80vh;
+    width: 90%;
+    margin: auto;
 }
-.right{
+.signin-right{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    /* border: 2px solid black; */
-    padding: 5px;
+    width: 100%;
+    padding: 10rem;
+    gap: 10px;
+    height: 80vh;
 }
-
-.s-title{
+.signin-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.signin-title{
     display: flex;
     flex-direction: row;
-    gap: 130px;
-    height: 4rem;
-    padding: 15px;
-    /* width: 200px; */
     background-color: rgb(225,225,225);
-    border-radius: 10px;
     margin-bottom: 10px;
-    min-width: 400px;
+    width: 100%;
+    border-radius: 999px;
+    padding: 4px;
 }
 
-.butn{
+.btn{
     cursor: pointer;
     background: transparent;
-    align-items: center;
     border: 0;
     outline: none;
-    width: 120px;
-    border-radius: 5px;
+    width: 150px;
 }
 .btn-green{
     cursor: pointer;
-    /* background: transparent; */
     background-color: rgb(0, 200, 170);
     border: 0;
     outline: none;
     width: 50%;
-    border-radius: 5px;
+    border-radius: 999px;
+    color: white;
 }
 
 .name{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
-    width: 350px;
+    gap: 30px;
+    max-width: 350px;
     padding: 5px 5px 5px 0;
 }
 
@@ -74,21 +70,20 @@
     margin-bottom: 10px;
 }
 
-.input1{
-    width: 270px;
-    /* height:40px; */
+.input{
+    width: 100%;
     border: 0;
     outline: none;
     background-color: rgb(245,245,245);
     border-radius: 5px;
-    height: 40px;
-    /* box-shadow: 0 0 20px 9px rgb(225,225,225); */
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .email{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .sign{
     display: flex;
@@ -98,15 +93,15 @@
     gap: 5px;
 }
 
-.reg{
-    width: 320px;
+.submit{
     cursor: pointer;
-    background: transparent;
+    color: white;
     border: 0;
     outline: none;
     background-color: rgb(0, 200, 170);
-    height: 30px;
-    border-radius: 15px;
+    border-radius: 999px;
+    width: 100%;
+    padding-block: 10px;
 }
 
 .google{

@@ -1,6 +1,7 @@
  import image from "../../images/signup.png"
  import google from "../../images/google.png"
  import "./signup.css"
+ import {Link} from 'react-router-dom'
  
  const Signup =()=>{
     return(
@@ -11,8 +12,8 @@
             </div>
             <div className="right">
                 <div className="s-title">
-                    <button className="btn">Sign In</button>
                     <button className="btn-green">Register</button>
+                    <Link to='/signin'><button className="butn">Sign-In</button></Link>
                 </div>
                 <div className="details">
                     <div className="name">
@@ -20,7 +21,7 @@
                         <input type="text" placeholder="Family Name" className="input"/>
                     </div>
                     <div className="email">
-                        <input type="email" placeholder="Email" className="input" />
+                        <input type="email" placeholder="Email" className="input1" />
                     </div>
                 </div>
                 <div className="checkbox">
