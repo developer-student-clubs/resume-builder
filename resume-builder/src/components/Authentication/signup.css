@@ -1,0 +1,27 @@
+.sign-up-form {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.sign-up-form__title {
+  width: 100%;
+  margin-top: 6.6rem;
+}
+
+.sign-up-form__fullname {
+  margin-top: 7.7rem;
+}
+
+.sign-up-form__unit, .sign-up-form__email, .sign-up-form__password {
+  margin-top: 4rem;
+}
+
+.sign-up-form__create-account {
+  margin-top: 8.8rem;
+}
+
+.sign-up-form__text-links {
+  margin-top: 5.2rem;
+}
+/*# sourceMappingURL=signup.css.map */
