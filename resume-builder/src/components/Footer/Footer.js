@@ -27,12 +27,13 @@ const Footer = () => {
                         <p>{section.header}</p>
                         {
                             section.links.map((link) => 
-                            <a href={link.url} target="_blank" rel="noreferrer">
+                            // <a href={link.url} target="_blank" rel="noreferrer">
                             <li>
                                 {link.title} 
                                 <FaCaretRight fontWeight={100} size={20} className='arrow'/>
                             </li>
-                            </a>)
+                            // </a>
+                        )
                         }
                     </div>
                     )
