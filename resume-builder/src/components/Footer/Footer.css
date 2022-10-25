@@ -5,22 +5,68 @@
 }
 
 .icon {
-    margin: 3px;
-    padding: 3px;
-}
-.text {
-    background-color: rgb(87, 124, 176);
-    display: grid;
-    column-gap: 0.5rem;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+    margin: 5px 10px;
+    height: 36px;
     padding: 5px;
 }
+
+.text {
+    background-color: rgb(87, 124, 176);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2.5%;
+    padding: 20px 2.5%;
+    row-gap: 20px;;
+}
+
+.text div {
+    width: 23%;
+}
+
+.text p {
+    font-size: 20px;
+    padding: 0;
+    margin: 5px 0;
+    color: rgb(145, 171, 204);
+    font-weight: bold;
+}
+
+.text a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .text li{
     cursor: pointer;
+    list-style: none;
+    display: flex;
+    color: rgb(13, 25, 51);
 }
+
 .text li:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(145, 171, 204);
+}
+
+.arrow {
+    margin-left: 10px;
+    display: none;
+    font-weight: 100;
+}
+
+.text li:hover .arrow{
+    display: flex;
+} 
+
+@media screen and (max-width: 1000px) {
+    .text div {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text div {
+        width: 100%;
+    }
 }
