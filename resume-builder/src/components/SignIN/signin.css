@@ -29,14 +29,14 @@
 }
 
 
-.btnp{
+.btn{
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     width: 150px;
 }
-.btn-greenp{
+.btn-green{
     cursor: pointer;
     background-color: rgb(0, 200, 170);
     border: 0;
