@@ -45,7 +45,7 @@
     border: 0;
     outline: none;
     width: 50%;
-    border-radius: 5px;
+    border-radius: 22px;
 }
 
 .name{
@@ -129,3 +129,24 @@
 .hid{
     visibility: hidden;
 }
+@media only screen and (max-width: 768px) {
+    
+    
+        body {
+            overflow-x: hidden !important;
+        }
+
+    .container{
+        flex-direction: column;
+        overflow-x: hidden !important;
+    }
+    .s-title{
+        width: 329px;
+        min-width: 0px;
+        gap: 53px;
+    }
+    .btn-green{
+        height: 30px;
+        padding: 0.25rem 1.5rem;
+    }
+  }
