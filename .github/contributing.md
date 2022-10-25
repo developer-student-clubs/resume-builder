@@ -2,7 +2,7 @@
 
   Hey there! We're glad to have you here for contributing in our project. Your help is essential to make our project more useful.
 
-  Please note that we same some code of conducts, please follow this througout interaction with our project.
+  Please note that we have some code of conducts, please follow these througout interaction with our project.
 
   ## Issues and PRs
   If you have any suggestion for improving this project or your want to report any bug present there please open issue! We are welcoming any contribution from you. If you have any kind of queries that we would love to address them. 
@@ -17,20 +17,20 @@
   5. Test updated project in your machine.
   6. Commit changes and push to your fork branch.
   7. Request for pull and merge request.
-  8. In few day, your request will be viwed and if it is appropriate then it will be merge to main branch. (Wait for that)
+  8. In few day, your request will be viewed and if it is appropriate then it will be merge to main branch. (Wait for that)
 
-  ### Some point you have to taken care of, for your request being accepted
+  ### Some point you have to take care of, for your request being accepted
   - Use standard syntax in codebase.
   - Do not change boilerplate which is given by us untill it is required.
-  - Make chages as foucus as possible.
-  - Make separe pull request if multiple changes are independent of each other.
+  - Make changes as focus as possible.
+  - Make separate pull request if multiple changes are independent of each other.
   - Don't make unnecessary changes to the project
   - Do not request for same changes. We will review your request so not need for requesting multiple times.
   - Please write `good commit messages`. It should reflect what changes have been made by you.
 
   <br/>
 
-  Worked in progress pull request are also acceptable. If you are stuck any where feel free to contact us.
+  Work in progress pull requests are also acceptable. If you are stuck any where feel free to contact us.
 
   ## Git and GitHub
   It is required to know differece between git and github. Git is `Version Control System` `(VCS)` which is helpful to store the history of source code. GitHub is the `hosting service` for git projects.
@@ -46,11 +46,11 @@
   This is an important step to mark your commits to your name and email.
 
   ### Fork a Project
-  You can find the project on which you can work at https://github.com/explore as per your skill and interest. Once you are conviced with project to work then you can make the copy of that project in your github account. This process is called as forking the repository. On the top right side of project you can see option for fork.
+  You can find the project on which you can work at https://github.com/explore as per your skill and interest. Once you are conviced with project to work then you can make the copy of that project in your github account. This process is called as forking the repository. On the top right side of project, you can see option for fork.
   
   <p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
 
-  You  can click on fork button to create a separate copy of project for you to work on.
+  You can click on fork button to create a separate copy of project for you to work on.
 
   <br/>
   
@@ -102,7 +102,7 @@
   ```
   You can use one command instead of both like `git commit -a -m "<commit-message>"`.
 
-  Commit message should be proper formated. If you are solving an issue on original repository, you should add the issue number like #35 to your commit message. This will show the reference to commits in the issue.
+  Commit message should be proper formatted. If you are solving an issue on original repository, you should add the issue number like #35 to your commit message. This will show the reference to commits in the issue.
 
 <br/>
 
@@ -134,7 +134,7 @@
   git push origin <branch-name>
   ```
 
-  Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bugfix to original repository. You can open a pull request by clicking on green icon -
+  Now you are ready to help the project by opening a pull request means you now can tell the project managers to add the feature or bugfix to original repository. You can open a pull request by clicking on green icon -
 
   <p align="center">  <img  src="https://i.imgur.com/aGaqAD5.png">  </p>
 

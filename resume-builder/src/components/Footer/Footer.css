@@ -1,6 +1,7 @@
 .icon-con {
     background-color: rgb(140, 177, 224);
     text-align: center;
+    cursor: pointer;
 }
 
 .icon {
@@ -16,4 +17,10 @@
     align-items: center;
     text-align: left;
     padding: 5px;
+}
+.text li{
+    cursor: pointer;
+}
+.text li:hover{
+    color: rgb(255, 255, 255);
 }
