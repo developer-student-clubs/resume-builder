@@ -1,47 +1,30 @@
 .signin-container{
     display: flex;
-    height: 80vh;
-    width: 90%;
+    height: 100vh;
     margin: auto;
+    background: white;
+    overflow: hidden;
+    width: 100vw;
 }
 .signin-right{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 10rem;
+    padding: 2rem;
+    flex: 2;
+    min-width: fit-content;
     gap: 10px;
     height: 80vh;
 }
-.signin-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .signin-title{
     display: flex;
-    flex-direction: row;
     background-color: rgb(225,225,225);
     margin-bottom: 10px;
     width: 100%;
-    border-radius: 999px;
-    padding: 4px;
-}
 
-.btn{
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    width: 150px;
-}
-.btn-green{
-    cursor: pointer;
-    background-color: rgb(0, 200, 170);
-    border: 0;
-    outline: none;
-    width: 50%;
-    border-radius: 999px;
-    color: white;
 }
 
 .name{
@@ -58,7 +41,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    height: 80px;
 }
 
 .checkbox{
@@ -66,8 +48,6 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
 .input{
@@ -77,7 +57,6 @@
     background-color: rgb(245,245,245);
     border-radius: 5px;
     padding: 5px;
-    margin-bottom: 10px;
 }
 
 .email{
@@ -90,7 +69,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
 }
 
 .submit{
@@ -107,14 +85,12 @@
 .google{
     width: 320px;
     cursor: pointer;
-    background: transparent;
     border: 0;
     outline: none;
     background-color: rgb(0, 200, 170);
     height: 30px;
     border-radius: 15px;
     display: inline-block;
-    
 }
 
 .short-text{
@@ -123,4 +99,18 @@
 
 .hid{
     visibility: hidden;
+}
+
+.signin-img {
+    display: none;
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media only all and (min-width: 640px) {
+    .signin-img {
+        display: flex;
+    }
 }
