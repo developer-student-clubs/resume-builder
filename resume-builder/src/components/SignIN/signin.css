@@ -2,7 +2,7 @@
     display: flex;
     height: 80vh;
     width: 90%;
-    margin: auto;
+   
 }
 .signin-right{
     display: flex;
@@ -25,7 +25,9 @@
     width: 100%;
     border-radius: 999px;
     padding: 4px;
+    
 }
+
 
 .btn{
     cursor: pointer;
@@ -124,3 +126,30 @@
 .hid{
     visibility: hidden;
 }
+@media only screen and (max-width: 768px) {
+    
+    
+    body {
+        overflow-x: hidden !important;
+    }
+   .signin-container{
+       overflow-x: hidden !important;
+       flex-direction: column;
+       width: 100%;
+       overflow: hidden;
+       height: 800px;
+      
+   }
+   .signin-right{
+       margin-right: 100px;
+       overflow-x: hidden !important;
+       padding: 0.5rem;
+      margin-top: 20px;
+      margin-top: 15px;
+   }
+   .signin-title{
+       margin-right: 100px;
+   }
+
+}
+
