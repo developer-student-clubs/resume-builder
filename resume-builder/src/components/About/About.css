@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 120rem;
+    font-style: normal;
+    cursor:default;
+}
+
+
+body{
+    background-color: #eee;
+}
+
+.about{
+    margin: 3rem;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.aboutusContainer{
+    margin: 5rem;
+}
+
+.aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutusImage{
+    width: 400px;
+    height: 400px;
+}
+
+.aboutusImage img{
+    height: 100%;
+    border-radius: 15px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.aboutSocial ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutSocial li{
+    list-style: none;
+}
+
+.bx{
+    font-size: 2rem;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.fb:hover{
+    color: blue;
+}
+.ig:hover{
+    color: #f658ea;
+}
+.tweet:hover{
+    color: skyblue;
+}
+.snap:hover{
+    color: yellow;
+}
